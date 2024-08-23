@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DE1BF52C782D1E009E337D /* videofyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE1BF42C782D1E009E337D /* videofyApp.swift */; };
+		26DE1BF72C782D1E009E337D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE1BF62C782D1E009E337D /* ContentView.swift */; };
+		26DE1BF92C782D20009E337D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DE1BF82C782D20009E337D /* Assets.xcassets */; };
+		26DE1BFC2C782D20009E337D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DE1BFB2C782D20009E337D /* Preview Assets.xcassets */; };
+		26DE1C072C782D20009E337D /* videofyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE1C062C782D20009E337D /* videofyTests.swift */; };
+		26DE1C112C782D20009E337D /* videofyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE1C102C782D20009E337D /* videofyUITests.swift */; };
+		26DE1C132C782D20009E337D /* videofyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE1C122C782D20009E337D /* videofyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26DE1C032C782D20009E337D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DE1BE92C782D1E009E337D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DE1BF02C782D1E009E337D;
+			remoteInfo = videofy;
+		};
+		26DE1C0D2C782D20009E337D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DE1BE92C782D1E009E337D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DE1BF02C782D1E009E337D;
+			remoteInfo = videofy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26DE1BF12C782D1E009E337D /* videofy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videofy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DE1BF42C782D1E009E337D /* videofyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videofyApp.swift; sourceTree = "<group>"; };
+		26DE1BF62C782D1E009E337D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26DE1BF82C782D20009E337D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26DE1BFB2C782D20009E337D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26DE1BFD2C782D20009E337D /* videofy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = videofy.entitlements; sourceTree = "<group>"; };
+		26DE1C022C782D20009E337D /* videofyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videofyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DE1C062C782D20009E337D /* videofyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videofyTests.swift; sourceTree = "<group>"; };
+		26DE1C0C2C782D20009E337D /* videofyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videofyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DE1C102C782D20009E337D /* videofyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videofyUITests.swift; sourceTree = "<group>"; };
+		26DE1C122C782D20009E337D /* videofyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videofyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DE1BEE2C782D1E009E337D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DE1BFF2C782D20009E337D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DE1C092C782D20009E337D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26DE1BE82C782D1E009E337D = {
+			isa = PBXGroup;
+			children = (
+				26DE1BF32C782D1E009E337D /* videofy */,
+				26DE1C052C782D20009E337D /* videofyTests */,
+				26DE1C0F2C782D20009E337D /* videofyUITests */,
+				26DE1BF22C782D1E009E337D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26DE1BF22C782D1E009E337D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DE1BF12C782D1E009E337D /* videofy.app */,
+				26DE1C022C782D20009E337D /* videofyTests.xctest */,
+				26DE1C0C2C782D20009E337D /* videofyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DE1BF32C782D1E009E337D /* videofy */ = {
+			isa = PBXGroup;
+			children = (
+				26DE1BF42C782D1E009E337D /* videofyApp.swift */,
+				26DE1BF62C782D1E009E337D /* ContentView.swift */,
+				26DE1BF82C782D20009E337D /* Assets.xcassets */,
+				26DE1BFD2C782D20009E337D /* videofy.entitlements */,
+				26DE1BFA2C782D20009E337D /* Preview Content */,
+			);
+			path = videofy;
+			sourceTree = "<group>";
+		};
+		26DE1BFA2C782D20009E337D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26DE1BFB2C782D20009E337D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26DE1C052C782D20009E337D /* videofyTests */ = {
+			isa = PBXGroup;
+			children = (
+				26DE1C062C782D20009E337D /* videofyTests.swift */,
+			);
+			path = videofyTests;
+			sourceTree = "<group>";
+		};
+		26DE1C0F2C782D20009E337D /* videofyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26DE1C102C782D20009E337D /* videofyUITests.swift */,
+				26DE1C122C782D20009E337D /* videofyUITestsLaunchTests.swift */,
+			);
+			path = videofyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26DE1BF02C782D1E009E337D /* videofy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DE1C162C782D20009E337D /* Build configuration list for PBXNativeTarget "videofy" */;
+			buildPhases = (
+				26DE1BED2C782D1E009E337D /* Sources */,
+				26DE1BEE2C782D1E009E337D /* Frameworks */,
+				26DE1BEF2C782D1E009E337D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = videofy;
+			productName = videofy;
+			productReference = 26DE1BF12C782D1E009E337D /* videofy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26DE1C012C782D20009E337D /* videofyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DE1C192C782D20009E337D /* Build configuration list for PBXNativeTarget "videofyTests" */;
+			buildPhases = (
+				26DE1BFE2C782D20009E337D /* Sources */,
+				26DE1BFF2C782D20009E337D /* Frameworks */,
+				26DE1C002C782D20009E337D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DE1C042C782D20009E337D /* PBXTargetDependency */,
+			);
+			name = videofyTests;
+			productName = videofyTests;
+			productReference = 26DE1C022C782D20009E337D /* videofyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26DE1C0B2C782D20009E337D /* videofyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DE1C1C2C782D20009E337D /* Build configuration list for PBXNativeTarget "videofyUITests" */;
+			buildPhases = (
+				26DE1C082C782D20009E337D /* Sources */,
+				26DE1C092C782D20009E337D /* Frameworks */,
+				26DE1C0A2C782D20009E337D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DE1C0E2C782D20009E337D /* PBXTargetDependency */,
+			);
+			name = videofyUITests;
+			productName = videofyUITests;
+			productReference = 26DE1C0C2C782D20009E337D /* videofyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DE1BE92C782D1E009E337D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					26DE1BF02C782D1E009E337D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					26DE1C012C782D20009E337D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 26DE1BF02C782D1E009E337D;
+					};
+					26DE1C0B2C782D20009E337D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 26DE1BF02C782D1E009E337D;
+					};
+				};
+			};
+			buildConfigurationList = 26DE1BEC2C782D1E009E337D /* Build configuration list for PBXProject "videofy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DE1BE82C782D1E009E337D;
+			productRefGroup = 26DE1BF22C782D1E009E337D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DE1BF02C782D1E009E337D /* videofy */,
+				26DE1C012C782D20009E337D /* videofyTests */,
+				26DE1C0B2C782D20009E337D /* videofyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DE1BEF2C782D1E009E337D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DE1BFC2C782D20009E337D /* Preview Assets.xcassets in Resources */,
+				26DE1BF92C782D20009E337D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DE1C002C782D20009E337D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DE1C0A2C782D20009E337D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DE1BED2C782D1E009E337D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DE1BF72C782D1E009E337D /* ContentView.swift in Sources */,
+				26DE1BF52C782D1E009E337D /* videofyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DE1BFE2C782D20009E337D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DE1C072C782D20009E337D /* videofyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DE1C082C782D20009E337D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DE1C112C782D20009E337D /* videofyUITests.swift in Sources */,
+				26DE1C132C782D20009E337D /* videofyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26DE1C042C782D20009E337D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DE1BF02C782D1E009E337D /* videofy */;
+			targetProxy = 26DE1C032C782D20009E337D /* PBXContainerItemProxy */;
+		};
+		26DE1C0E2C782D20009E337D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DE1BF02C782D1E009E337D /* videofy */;
+			targetProxy = 26DE1C0D2C782D20009E337D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26DE1C142C782D20009E337D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26DE1C152C782D20009E337D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		26DE1C172C782D20009E337D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = videofy/videofy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"videofy/Preview Content\"";
+				DEVELOPMENT_TEAM = KH5Q8UWSWY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garyle.videofy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		26DE1C182C782D20009E337D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = videofy/videofy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"videofy/Preview Content\"";
+				DEVELOPMENT_TEAM = KH5Q8UWSWY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garyle.videofy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		26DE1C1A2C782D20009E337D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH5Q8UWSWY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garyle.videofyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videofy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/videofy";
+			};
+			name = Debug;
+		};
+		26DE1C1B2C782D20009E337D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH5Q8UWSWY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garyle.videofyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videofy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/videofy";
+			};
+			name = Release;
+		};
+		26DE1C1D2C782D20009E337D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH5Q8UWSWY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garyle.videofyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = videofy;
+			};
+			name = Debug;
+		};
+		26DE1C1E2C782D20009E337D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH5Q8UWSWY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garyle.videofyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = videofy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DE1BEC2C782D1E009E337D /* Build configuration list for PBXProject "videofy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DE1C142C782D20009E337D /* Debug */,
+				26DE1C152C782D20009E337D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DE1C162C782D20009E337D /* Build configuration list for PBXNativeTarget "videofy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DE1C172C782D20009E337D /* Debug */,
+				26DE1C182C782D20009E337D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DE1C192C782D20009E337D /* Build configuration list for PBXNativeTarget "videofyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DE1C1A2C782D20009E337D /* Debug */,
+				26DE1C1B2C782D20009E337D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DE1C1C2C782D20009E337D /* Build configuration list for PBXNativeTarget "videofyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DE1C1D2C782D20009E337D /* Debug */,
+				26DE1C1E2C782D20009E337D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26DE1BE92C782D1E009E337D /* Project object */;
+}
