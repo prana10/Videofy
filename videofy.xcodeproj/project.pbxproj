@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264FF9AB2C7E11FA004266AE /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FF9AA2C7E11FA004266AE /* VideoPlayerView.swift */; };
+		264FF9AD2C7E1B6B004266AE /* AVPlayerWithReferer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FF9AC2C7E1B6B004266AE /* AVPlayerWithReferer.swift */; };
 		26DE1BF52C782D1E009E337D /* videofyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE1BF42C782D1E009E337D /* videofyApp.swift */; };
 		26DE1BF72C782D1E009E337D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE1BF62C782D1E009E337D /* ContentView.swift */; };
 		26DE1BF92C782D20009E337D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DE1BF82C782D20009E337D /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264FF9AA2C7E11FA004266AE /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		264FF9AC2C7E1B6B004266AE /* AVPlayerWithReferer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerWithReferer.swift; sourceTree = "<group>"; };
 		26DE1BF12C782D1E009E337D /* videofy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videofy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DE1BF42C782D1E009E337D /* videofyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videofyApp.swift; sourceTree = "<group>"; };
 		26DE1BF62C782D1E009E337D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 			children = (
 				26DE1BF42C782D1E009E337D /* videofyApp.swift */,
 				26DE1BF62C782D1E009E337D /* ContentView.swift */,
+				264FF9AA2C7E11FA004266AE /* VideoPlayerView.swift */,
+				264FF9AC2C7E1B6B004266AE /* AVPlayerWithReferer.swift */,
 				26DE1BF82C782D20009E337D /* Assets.xcassets */,
 				26DE1BFD2C782D20009E337D /* videofy.entitlements */,
 				26DE1BFA2C782D20009E337D /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				26DE1BF72C782D1E009E337D /* ContentView.swift in Sources */,
 				26DE1BF52C782D1E009E337D /* videofyApp.swift in Sources */,
+				264FF9AB2C7E11FA004266AE /* VideoPlayerView.swift in Sources */,
+				264FF9AD2C7E1B6B004266AE /* AVPlayerWithReferer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

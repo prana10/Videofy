@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
+    let player: AVPlayer
+    init() {
+        let url = URL(string: "https://mtoczko.github.io/hls-test-streams/test-group/playlist.m3u8")!
+        player = createPlayerWithRefererHeader(url: url, referer: "")
+    }
+    
     var body: some View {
-        VStack {
-            
-        }
-        .padding()
+        VideoPlayerView(player: player)
+            .onAppear {
+                player.play()
+            }
+            .onDisappear {
+                player.pause()
+            }
     }
 }
 

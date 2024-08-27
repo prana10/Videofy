@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVKit
 
 @main
 struct videofyApp: App {
@@ -13,7 +14,7 @@ struct videofyApp: App {
         WindowGroup {
             ContentView()
                 .frame(
-                    minWidth: 800, 
+                    minWidth: 800,
                     maxWidth: .infinity,
                     minHeight: 600,
                     maxHeight: .infinity
